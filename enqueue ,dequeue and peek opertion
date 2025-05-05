@@ -1,0 +1,31 @@
+class Queue:
+    def __init__(self):
+        self.queue = []
+
+    def enqueue(self, item):
+        self.queue.append(item)
+
+    def dequeue(self):
+        if self.queue:
+            return self.queue.pop(0)
+        return None
+
+    def peek(self):
+        if self.queue:
+            return self.queue[0]
+        return None
+
+    def display(self):
+        print("Queue:", self.queue)
+        if self.peek() is not None:
+            print("Front:", self.peek())
+
+
+# Example usage
+q = Queue()
+q.enqueue(10)
+q.enqueue(20)
+q.enqueue(30)
+q.display()
+print("Removed:", q.dequeue())
+q.display()
