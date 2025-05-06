@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Information</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    th {
+      background-color: pink;
+    }
+    td:nth-child(1) {
+      background-color: pink;
+    }
+    td:nth-child(2) {
+      background-color: green;
+    }
+    td:nth-child(3) {
+      background-color: yellow;
+    }
+    td:nth-child(4) {
+      background-color: orange;
+    }
+    td:nth-child(5) {
+      background-color: blue;
+    }
+    p {
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+    }
+    .name {
+      color: #ff5733;
+      background-color: yellow;
+    }
+    .nickname {
+      color: #3355ff;
+    }
+    .role {
+      color: black;
+      background-color: lightyellow;
+    }
+    .work {
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Student Information</caption>
+    <thead>
+      <tr>
+        <th>Student ID</th>
+        <th>Student Name</th>
+        <th>Course</th>
+        <th>Department</th>
+        <th>Student Roll No</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>101</td>
+        <td>Alok Sharma</td>
+        <td>B.Tech</td>
+        <td>Computer Science</td>
+        <td>1001</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Rahul Yadav</td>
+        <td>B.Sc</td>
+        <td>Physics</td>
+        <td>1002</td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Sohan Nair</td>
+        <td>B.Com</td>
+        <td>Commerce</td>
+        <td>1003</td>
+      </tr>
+      <tr>
+        <td>104</td>
+        <td>Sahil Ma</td>
+        <td>B.Com</td>
+        <td>Art</td>
+        <td>1004</td>
+      </tr>
+      <tr>
+        <td>105</td>
+        <td>Rohit Yadav</td>
+        <td>B.Tech</td>
+        <td>Math</td>
+        <td>1005</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
